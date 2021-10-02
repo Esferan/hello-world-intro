@@ -1,4 +1,3 @@
-// Your First Program
 class Main {
   
   // You should not change this method
@@ -6,6 +5,7 @@ class Main {
     printHello();
     printStarPiramid();
     printFace();
+    printLongSentence();
   }
   
   /**
@@ -14,7 +14,7 @@ class Main {
    */
   public static void printHello() {
     //TODO
-    System.out.println("Hello, XXX");
+    System.out.println("Hello, CSS 142 Student!");
   }
   
   /**
@@ -30,7 +30,11 @@ class Main {
           There should be no space after the stars.
   */
   public static void printStarPiramid() {
-      //TODO
+      System.out.println("    *");
+      System.out.println("   ***");
+      System.out.println("  *****");
+      System.out.println(" *******");
+      System.out.println("*********");
   }
     
   // This method print out a face:
@@ -46,7 +50,12 @@ class Main {
           There should be no space after the String at each line.
   */
   public static void printFace() {
-      //TODO
+      System.out.println(" +\"\"\"\"\"+");
+      System.out.println("[| o o |]");
+      System.out.println(" |  ^  |");
+      System.out.println(" | '-' |");
+      System.out.println(" +-----+");
+
   }
   
   /** 
@@ -55,9 +64,14 @@ class Main {
   */
   public static void printLongSentence() 
   {
-        System.out.println("This is a very long sentence that contains over 100 characters, and it should cause a warming in checkstyle!");
+        System.out.println("This is a very long sentence that contains over 100 characters,");
+        System.out.println("and it should cause a warming in checkstyle!");
     
-          int NUM1=0; double NUM2=2.5; String STRING1 = "Hello World!";
-      System.out.println(NUM1); System.out.println(NUM2); System.out.println(STRING1);
+          int NUM1=0;
+          double NUM2=2.5; 
+          String string1 = "Hello World!";
+      System.out.println(NUM1); 
+      System.out.println(NUM2); 
+      System.out.println(string1);
   }
 }
